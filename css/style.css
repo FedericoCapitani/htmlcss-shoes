@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* main */
+
+.container{
+    height: 100vh;
+}
+.bg_red{
+    background-color: red;
+}
+.bg_green{
+    background-color: green;
+}
+.bg_yellow{
+    background-color: yellow;
+}
