@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 900;
+}
 /* main */
 
 .container{
     height: 100vh;
+    position: relative;
 }
 .bg_red{
     background-color: red;
@@ -17,4 +21,25 @@
 }
 .bg_yellow{
     background-color: yellow;
+}
+.container > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text{
+    text-align: center;
+    font-size: 4rem;
+    width: 750px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.yellow_text{
+    color: yellow;
+}
+.green_text{
+    color: green;
 }
